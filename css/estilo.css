@@ -145,8 +145,8 @@ h3{font-size:1.15rem}
 .indice{position:sticky;top:100px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.5rem}
 .indice ol{counter-reset:i}
 .indice li{counter-increment:i;margin-bottom:.15rem}
-.indice a{display:block;text-decoration:none;font-size:.85rem;color:var(--muted);padding:.4rem 0;border-bottom:1px solid var(--line)}
-.indice a:hover{color:var(--gold)}
+.indice a:not(.btn){display:block;text-decoration:none;font-size:.85rem;color:var(--muted);padding:.4rem 0;border-bottom:1px solid var(--line)}
+.indice a:not(.btn):hover{color:var(--gold)}
 @media(max-width:900px){.conteudo{grid-template-columns:1fr}.indice{position:static}}
 .artigo{max-width:760px}
 .prosa p{color:var(--muted);margin-bottom:1.1rem}
